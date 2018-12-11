@@ -1,0 +1,180 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 17px;
+            line-height: 1.6;
+            background: #ffffff;
+        }
+        
+        .container {
+            margin-right: auto;
+            margin-left: auto;
+            padding-right: 15px;
+            padding-left: 15px;
+            width: 100%;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        
+        #showcase {
+            background-image: url('../img/desktop.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #f8f8f8;
+        }
+        
+        .display {
+            background: rgba(35, 43, 46, 0.176);
+            border: 1px rgba(35, 43, 46, 0.176) solid;
+            padding: 20px;
+            border-radius: 30%;
+        }
+        
+        #showcase h1 {
+            font-size: 60px;
+            line-height: 1.2;
+            margin-bottom: 30px
+        }
+        
+        .auto-mr {
+            margin-right: auto !important;
+        }
+        
+        #showcase p {
+            font-size: 20px;
+            margin-bottom: 40px
+        }
+        
+        #showcase .button {
+            font-size: 18px;
+            text-decoration: none;
+            color: #dfe8ee;
+            border: #1b8fd3 1px solid;
+            padding: 10px 40px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        #showcase .button:hover {
+            background: #279fbd;
+            color: #fff;
+        }
+        
+        #section-c {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        #section-c h5 {
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .box1,
+        .box2,
+        .box3 {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            border-radius: 0.25rem;
+            color: #161c29;
+            position: relative;
+            min-height: 1px;
+            margin: 10px;
+        }
+        
+        .b-body {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        
+        .img {
+            width: 100%;
+            border-radius: calc(0.25rem - 1px);
+            height: 200px;
+        }
+        
+        .box-w {
+            flex: 0 0 33.33333%;
+            max-width: 33.3333%;
+        }
+        
+        @media (min-width: 350px) {
+            .container {
+				max-width: 350px;
+			}	
+			.box-w {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+        
+        @media (min-width: 576px) {
+            .container {
+                max-width: 550px;
+            }
+            .box-w {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .container {
+                max-width: 7500px;
+            }
+            .box-w {
+                flex: 0 0 33.33333%;
+                max-width: 33.3333%;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .container {
+                max-width: 980px;
+            }
+            .box-w {
+                flex: 0 0 33.33333%;
+                max-width: 33.3333%;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1140px;
+            }
+            .box-w {
+                flex: 0 0 33.33333%;
+                max-width: 33.3333%;
+            }
+        }
+        
+        footer {
+            padding: 30px;
+            font-size: 20px;
+            text-align: center;
+            background-color: #161c29;
+            color: #fff;
+        }
